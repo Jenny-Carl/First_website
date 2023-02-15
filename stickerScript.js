@@ -1,5 +1,5 @@
-const smiley = document.querySelector("#smiley");
+const sticker = document.querySelector("#sticker");
 
-smiley.addEventListener("click", () => {
+sticker.addEventListener("click", () => {
     alert("You've clicked on the sticker.");
 });
