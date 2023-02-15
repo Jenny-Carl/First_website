@@ -1,3 +1,16 @@
 p {
     color: red;
 }
+
+body {
+    background-color:bisque;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+#sticker {
+    width: 50%;
+    height: auto;
+}
