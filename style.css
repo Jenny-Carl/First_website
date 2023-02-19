@@ -1,16 +1,33 @@
-p {
-    color: red;
+
+ul#links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+  }
+
+li{
+    margin: 1em;
+    padding: 10px;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 0 0 #ccc;
+    transition: box-shadow 300ms, color 300ms;
 }
+
+li:hover {
+    color: blanchedalmond;
+    box-shadow: 10px 10px 0 rgb(219, 219, 219);
+  }
 
 body {
-    background-color:bisque;
+    background-color:rgb(29, 29, 39);
+    text-align: center;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-h1 {
-    font-size: 24px;
-}
-
-#sticker {
-    width: 50%;
-    height: auto;
-}
+  
